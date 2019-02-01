@@ -1,0 +1,45 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+main {
+  display: inline-block;
+  max-width: 69ch;
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+h1 {
+  white-space: pre-line;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-pic {
+  max-height: 15rem;
+}
+
+li {
+  margin-bottom: 100px;
+  display: flex;
+}
+
+figure {
+  margin: 0 35px 0 0;
+}
+
+figcaption {
+  font-weight: bold;
+}
