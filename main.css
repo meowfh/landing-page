@@ -89,6 +89,12 @@ figcaption {
   text-align: left;
 }
 
+.right-align {
+  text-align: right;
+  margin-right: 100px;
+  padding-right: 0px;
+}
+
 .team-row {
   margin-top: 30px;
   margin-bottom: 30px;
