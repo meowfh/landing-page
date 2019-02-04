@@ -4,22 +4,23 @@
 
 body {
   text-align: center;
-}
-
-main {
-  display: inline-block;
-  max-width: 69ch;
-  text-align: left;
-  font-size: 1.4rem;
-  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  color: #394858;
 }
 
 h1 {
   white-space: pre-line;
+  color: #394858;
+  font-size: 400%;
 }
 
 h2 {
-  margin-top: 50px;
+  font-size: 250%;
+}
+
+.slogan {
+  font-size: 130%;
+  color: #394858;
 }
 
 ul {
@@ -28,12 +29,8 @@ ul {
 }
 
 .profile-pic {
-  max-height: 15rem;
-}
-
-li {
-  margin-bottom: 100px;
-  display: flex;
+  max-height: 10rem;
+  border-radius: 50%;
 }
 
 figure {
@@ -42,4 +39,57 @@ figure {
 
 figcaption {
   font-weight: bold;
+}
+
+.beige {
+  background-color: #f5f5f5;
+}
+
+.light-beige {
+  background-color: #FFFFFC;
+}
+
+.create-button {
+  background-color: #D85662;
+  color: white;
+}
+
+.screenshot1 {
+  width: 400px;
+}
+
+.screenshot2 {
+  width: 650px;
+  height: 300px;
+}
+
+.screenshot3 {
+  width: 800px;
+  height: 235px;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.top-padding {
+  padding-top: 50px;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.team-row {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
